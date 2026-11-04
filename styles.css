@@ -8,3 +8,6 @@ body{font-family:Montserrat,Arial,sans-serif;color:#222;background:#fff;line-hei
 
 /* Vertically align footer logo with footer text */
 .footer .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px}.footer .wrap>span{display:flex;align-items:center;line-height:1.2}.footer-logo{display:inline-flex;align-items:center;justify-content:center;line-height:0;margin-left:auto;flex-shrink:0}.footer-logo img{display:block;max-height:46px;width:auto;object-fit:contain}@media(max-width:580px){.footer .wrap{flex-direction:row;align-items:center;flex-wrap:wrap}.footer-logo{margin-left:auto}}
+
+/* Footer: keep ND logo and credit text on one vertically centered row */
+.footer .wrap{display:flex;flex-direction:row;align-items:center;justify-content:space-between;flex-wrap:nowrap;gap:24px}.footer .wrap>span{display:block;line-height:1.4;flex:1;min-width:0}.footer-logo{margin-left:0;flex:0 0 auto;display:flex;align-items:center;justify-content:center;align-self:center;line-height:0}.footer-logo img{display:block;width:76px;max-height:58px;height:auto;object-fit:contain}@media(max-width:580px){.footer .wrap{flex-direction:row;align-items:center;gap:12px}.footer .wrap>span{font-size:.62rem}.footer-logo img{width:60px}}
